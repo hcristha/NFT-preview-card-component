@@ -4,5 +4,26 @@
     font-family: 'Outfit', sans-serif;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    padding: 20px;
+    width: 375px;
+}
+
+#equi{
+    width: 50%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
