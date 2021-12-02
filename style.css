@@ -23,6 +23,11 @@ main{
     border-radius: 5px;
 }
 
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
