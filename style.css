@@ -38,13 +38,13 @@ p{
 }
 
 #ether{
-    padding-right: 7px;
+    margin-right: 7px;
 }
 
 #eth{
     color: hsl(178, 100%, 50%);
-    display: inline-block;
-    padding-bottom: 7px;
+    display: inline;
+    margin-top: ;
 }
 
 #clock{
@@ -52,8 +52,8 @@ p{
 }
 
 #three{
-    display: inline-block;
-    padding-top: 7px;
+    /* display: inline; */
+    
 }
 
 hr{
