@@ -33,14 +33,18 @@ p{
     font-size: 1rem;
 }
 
+#dados{
+
+}
+
 #ether{
-    float: left;
-    padding-right: 5px;
+    padding-right: 7px;
 }
 
 #eth{
     color: hsl(178, 100%, 50%);
-    display: inline;
+    display: inline-block;
+    padding-bottom: 7px;
 }
 
 #clock{
@@ -48,7 +52,13 @@ p{
 }
 
 #three{
-    display: inline;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 100%;
 }
 
 .attribution { 
