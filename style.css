@@ -28,6 +28,20 @@ h1{
     font-size: 1.4rem;
 }
 
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+}
+
+#ether{
+    float: left;
+    padding-right: 5px;
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
