@@ -40,6 +40,15 @@ p{
 
 #eth{
     color: hsl(178, 100%, 50%);
+    display: inline;
+}
+
+#clock{
+    margin-left: 30%;
+}
+
+#three{
+    display: inline;
 }
 
 .attribution { 
