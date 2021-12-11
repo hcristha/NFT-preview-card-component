@@ -55,9 +55,9 @@ p{
 }
 
 #three{
-    display: inline-block;
+    float: right;
     height: 50px;
-    transform: translateY(-5%);
+    transform: translateY(-45%);
     width: 80px;
 }
 
