@@ -7,7 +7,8 @@
 body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
-    padding: 3vw;
+    margin: 0;
+    padding: 5vw;
     padding-top: 5vh;
 }
 
@@ -34,7 +35,7 @@ p{
 }
 
 #dados{
-
+    background-color: red;
 }
 
 #ether{
@@ -42,8 +43,9 @@ p{
 }
 
 #eth{
+    background-color: yellow;
     color: hsl(178, 100%, 50%);
-    display: inline;
+    /* display: inline; */
     /* margin-top: ; */
 }
 
@@ -52,7 +54,7 @@ p{
 }
 
 #three{
-    /* display: inline; */
+    display: inline;
 }
 
 hr{
