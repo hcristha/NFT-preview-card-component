@@ -19,6 +19,11 @@ body{
     padding: 20px;
 }
 
+main{
+    background-color: green;
+    box-sizing: border-box;
+}
+
 #equi{
     width: 100%;
     border-radius: 5px;
@@ -40,7 +45,6 @@ p{
 } */
 
 #ether{
-    display: inline;
     float: left;
     margin-right: 7px;
 }
@@ -51,14 +55,15 @@ p{
 }
 
 #clock{
-    background-color: yellow;
-    display: inline;
-    /* margin-left: 25%; */
+    margin-left: 25%;
+    margin-right: 7px;
 }
 
 #three{
-    background-color: green;
-    float: right;
+    background-color: red;
+    display: inline;
+    position: relative;
+    transform: translateY(-100%);
 }
 
 hr{
