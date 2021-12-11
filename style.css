@@ -34,10 +34,10 @@ p{
     font-size: 1rem;
 }
 
-#dados{
+/* #dados{
     background-color: red;
-    /* overflow: hidden; */
-}
+    overflow: hidden; 
+} */
 
 #ether{
     margin-right: 7px;
@@ -45,12 +45,8 @@ p{
 }
 
 #eth{
-    background-color: green;
     color: hsl(178, 100%, 50%);
-    clear: right;
     display: inline;
-    margin-bottom: 15px;
-    transform: translateY(-70%);
 }
 
 #clock{
