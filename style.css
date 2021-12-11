@@ -19,11 +19,6 @@ body{
     padding: 20px;
 }
 
-main{
-    background-color: green;
-    box-sizing: border-box;
-}
-
 #equi{
     width: 100%;
     border-radius: 5px;
@@ -60,10 +55,10 @@ p{
 }
 
 #three{
-    background-color: red;
-    display: inline;
-    position: relative;
-    transform: translateY(-100%);
+    display: inline-block;
+    height: 50px;
+    transform: translateY(-5%);
+    width: 80px;
 }
 
 hr{
