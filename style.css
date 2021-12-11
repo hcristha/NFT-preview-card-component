@@ -44,7 +44,7 @@ p{
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
-    margin-top: ;
+    /* margin-top: ; */
 }
 
 #clock{
@@ -65,5 +65,5 @@ hr{
 }
 
 .attribution a {
-     color: hsl(228, 45%, 44%)
+     color: hsl(228, 45%, 44%);
 }
