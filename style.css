@@ -40,8 +40,9 @@ p{
 } */
 
 #ether{
-    margin-right: 7px;
+    display: inline;
     float: left;
+    margin-right: 7px;
 }
 
 #eth{
@@ -50,12 +51,14 @@ p{
 }
 
 #clock{
-    margin-left: 25%;
-    margin-right: 7px;
+    background-color: yellow;
+    display: inline;
+    /* margin-left: 25%; */
 }
 
 #three{
-    display: inline;
+    background-color: green;
+    float: right;
 }
 
 hr{
