@@ -36,21 +36,26 @@ p{
 
 #dados{
     background-color: red;
+    /* overflow: hidden; */
 }
 
 #ether{
     margin-right: 7px;
+    float: left;
 }
 
 #eth{
-    background-color: yellow;
+    background-color: green;
     color: hsl(178, 100%, 50%);
-    /* display: inline; */
-    /* margin-top: ; */
+    clear: right;
+    display: inline;
+    margin-bottom: 15px;
+    transform: translateY(-70%);
 }
 
 #clock{
-    margin-left: 30%;
+    margin-left: 25%;
+    margin-right: 7px;
 }
 
 #three{
