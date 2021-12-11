@@ -55,10 +55,7 @@ p{
 }
 
 #three{
-    float: right;
-    height: 50px;
-    transform: translateY(-45%);
-    width: 80px;
+    display: inline;
 }
 
 hr{
