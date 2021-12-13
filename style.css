@@ -21,6 +21,7 @@ body{
 }
 
 #equi{
+    height: 90%;
     width: 100%;
     border-radius: 5px;
 }
@@ -50,11 +51,11 @@ p{
 }
 
 #clock{
-    margin-left: 25%;
-    margin-right: 7px;
+    display: inline;
 }
 
 #three{
+    float: right;
     display: inline;
 }
 
