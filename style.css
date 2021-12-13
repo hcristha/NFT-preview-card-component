@@ -35,12 +35,13 @@ p{
 }
 
 #dados{
-    background-color: green;
+    /* background-color: green;
+    box-sizing: border-box;
+    padding: 20px; */
 }
 
 #ether{
-    float: left;
-    margin-right: 7px;
+    
 }
 
 #eth{
@@ -54,7 +55,6 @@ p{
 }
 
 #three{
-    background-color: red;
     display: inline;
     padding-bottom: 10%;
 }
