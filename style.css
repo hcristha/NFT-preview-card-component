@@ -82,9 +82,11 @@ hr{
     padding-top: 15px;
 }
 
-.attribution { 
+.attribution {
     font-size: 11px; text-align: center; 
-    margin-top: 14%;
+    margin: 0;
+    margin-top: 12vh;
+    padding: 0;
 }
 
 .attribution a {
