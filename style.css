@@ -42,7 +42,7 @@ p{
 }
 
 #ether{
-    margin-right: 7px;
+    margin-right: 5px;
 }
 
 #eth{
@@ -51,11 +51,11 @@ p{
 }
 
 #clock{
-    display: inline;
+    margin-left: 34%;
+    margin-right: 5px;
 }
 
 #three{
-    float: right;
     display: inline;
 }
 
