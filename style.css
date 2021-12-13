@@ -9,7 +9,7 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 5vw;
-    padding-top: 5vh;
+    padding-top: 7vh;
 }
 
 #container{
@@ -17,7 +17,7 @@ body{
     border-radius: 15px;
     margin: auto;
     overflow: hidden;
-    padding: 20px;
+    padding: 25px;
 }
 
 #equi{
@@ -42,21 +42,24 @@ p{
 }
 
 #ether{
+    float: left;
     margin-right: 5px;
 }
 
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
+    padding-bottom: 20px;
 }
 
 #clock{
-    margin-left: 34%;
+    margin-left: 31%;
     margin-right: 5px;
 }
 
 #three{
     display: inline;
+    padding-bottom: 15px;
 }
 
 hr{
