@@ -16,6 +16,7 @@ body{
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     margin: auto;
+    overflow: hidden;
     padding: 20px;
 }
 
@@ -36,8 +37,8 @@ p{
 
 #dados{
     /* background-color: green;
-    box-sizing: border-box;
-    padding: 20px; */
+    box-sizing: border-box; */
+    padding-bottom: 5px;
 }
 
 #ether{
@@ -64,8 +65,19 @@ hr{
     width: 100%;
 }
 
+#avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    height: 10%;
+    width: 20%;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
+    margin-top: 14%;
 }
 
 .attribution a {
