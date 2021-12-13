@@ -28,9 +28,23 @@ body{
     border-radius: 5px;
 }
 
+#equi:hover{
+    background-color:hsl(178, 100%, 50%);
+    -webkit-mask-image: url(./images/icon-view.svg);
+    mask-image: url(./images/icon-view.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
 h1{
     color: hsl(0, 0%, 100%);
     font-size: 1.4rem;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 p{
@@ -75,8 +89,16 @@ hr{
     width: 13%;
 }
 
-#jules{
+#creat{
     padding-top: 15px;
+}
+
+#jules{
+    color: hsl(0, 0%, 100%)
+}
+
+#jules:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .attribution {
