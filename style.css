@@ -1,3 +1,5 @@
+/* mobile */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap');
 
 *{
@@ -80,7 +82,6 @@ hr{
 .attribution {
     font-size: 11px; text-align: center; 
     margin: 0;
-    margin-top: 12vh;
     padding: 0;
 }
 
