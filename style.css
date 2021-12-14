@@ -28,9 +28,16 @@ body{
     width: 100%;
 }
 
-#view{
-    height: 50%;
+#cyan{
+    background-color: hsla(178, 100%, 50%, 0.302);
+    height: 30vh;
     width: 100%;
+}
+
+#view{
+    position: relative;
+    left: 40%;
+    top: 40%;
 }
 
 h1{
