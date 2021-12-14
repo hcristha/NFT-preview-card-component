@@ -22,14 +22,8 @@ body{
     padding: 25px;
 }
 
-#equi{
-    border-radius: 5px;
-    height: 90%;
-    width: 100%;
-}
-
 #cyan{
-    background-color: hsla(178, 100%, 50%, 0.302);
+    background-color: hsla(178, 100%, 50%, 0.309);
     border-radius: 5px;
     height: 35vh;
     width: 100%;
@@ -39,6 +33,16 @@ body{
     position: relative;
     left: 40%;
     top: 40%;
+}
+
+#equi{
+    border-radius: 5px;
+    height: 90%;
+    width: 100%;
+}
+
+#equi:hover{
+    position: relative;
 }
 
 h1{
