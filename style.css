@@ -29,13 +29,21 @@ body{
 }
 
 #equi:hover{
-    background-color:hsl(178, 100%, 50%);
-    -webkit-mask-image: url(./images/icon-view.svg);
+    background: url(./images/icon-view.svg) cover;
+    /* -webkit-mask-image: url(./images/icon-view.svg);
     mask-image: url(./images/icon-view.svg);
     -webkit-mask-size: 100%;
     mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat
+    mask-repeat: no-repeat; */
+}
+
+#view:hover{
+    display: block;
+    background: url(./images/image-equilibrium.jpg) 50%;
+    background-color: #ccc;
+    height: 90%;
+    width: 100%;
 }
 
 h1{
