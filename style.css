@@ -30,7 +30,8 @@ body{
 
 #cyan{
     background-color: hsla(178, 100%, 50%, 0.302);
-    height: 30vh;
+    border-radius: 5px;
+    height: 35vh;
     width: 100%;
 }
 
