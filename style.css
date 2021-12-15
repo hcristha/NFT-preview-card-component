@@ -35,9 +35,6 @@ body{
     top: 40%;
 }
 
-#view:hover{
-    position: absolute;
-}
 #equi{
     /* border: 40px solid black; */
     border-radius: 5px;
@@ -47,6 +44,7 @@ body{
 
 #equi:hover{
     position: relative;
+    left: 120px;
 }
 
 h1{
