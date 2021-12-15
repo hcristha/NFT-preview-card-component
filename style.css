@@ -36,15 +36,19 @@ body{
 }
 
 #equi{
-    /* border: 40px solid black; */
     border-radius: 5px;
     height: 35vh;
     width: 100%;
 }
 
-#equi:hover{
-    position: relative;
-    left: 120px;
+#equi2{
+    border-radius: 5px;
+    height: 35vh;
+    width: 100%;
+}
+
+#equi2:hover{
+    display: none;
 }
 
 h1{
