@@ -65,25 +65,27 @@ p{
     font-size: 1rem;
 }
 
-#ether{
-    float: left;
-    margin-right: 5px;
-}
-
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
     padding-bottom: 20px;
+    position: absolute;
+    top: -70%;
+    left: 7%;
 }
 
 #clock{
-    margin-left: 31%;
-    margin-right: 5px;
+    position: relative;
+    left: 60%;
+
 }
 
 #three{
     display: inline;
     padding-bottom: 15px;
+    position: absolute;
+    right: 0%;
+    top: -70%;
 }
 
 hr{
@@ -123,3 +125,4 @@ hr{
 .attribution a {
      color: hsl(228, 45%, 44%);
 }
+
