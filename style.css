@@ -23,7 +23,7 @@ body{
 }
 
 #cyan{
-    background-color: hsla(178, 100%, 50%, 0.316);
+    background-color: hsla(178, 100%, 50%, 0.364);
     border-radius: 5px;
     height: 35vh;
     width: 100%;
@@ -35,9 +35,13 @@ body{
     top: 40%;
 }
 
+#view:hover{
+    position: absolute;
+}
 #equi{
+    /* border: 40px solid black; */
     border-radius: 5px;
-    height: 90%;
+    height: 35vh;
     width: 100%;
 }
 
