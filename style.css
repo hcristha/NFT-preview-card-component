@@ -20,6 +20,7 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
+    width: 80%;
 }
 
 #cyan{
@@ -60,6 +61,10 @@ h1:hover{
     color: hsl(178, 100%, 50%);
 }
 
+main{
+    background-color: yellow;
+}
+
 p{
     color: hsl(215, 51%, 70%);
     font-size: 1rem;
@@ -68,24 +73,27 @@ p{
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
-    padding-bottom: 20px;
-    position: absolute;
+    margin-left: 5px;
+    /* position: absolute;
     top: -70%;
-    left: 7%;
+    left: 7%; */
 }
 
 #clock{
-    position: relative;
-    left: 60%;
+    position: absolute;
+    top: 0px;
+    left: 100%; /*como posicionar na extremidade?*/
+    right: 0px;
+    bottom: 0px;
 
 }
 
 #three{
     display: inline;
-    padding-bottom: 15px;
-    position: absolute;
+    margin-left: 5px;
+    /* position: absolute;
     right: 0%;
-    top: -70%;
+    top: -70%; */
 }
 
 hr{
@@ -126,5 +134,8 @@ hr{
      color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: )
-/*aqui*/
+@media screen and (min-width: 420px){ /*desktop*/
+    body{
+        width: 30%;
+    }
+}
