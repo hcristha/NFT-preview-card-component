@@ -61,9 +61,9 @@ h1:hover{
     color: hsl(178, 100%, 50%);
 }
 
-main{
+/* main{
     background-color: yellow;
-}
+} */
 
 p{
     color: hsl(215, 51%, 70%);
@@ -73,27 +73,25 @@ p{
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
-    margin-left: 5px;
-    /* position: absolute;
-    top: -70%;
-    left: 7%; */
+    margin-left: 10px;
+    position: absolute;
+    bottom: 5%;
+    
 }
 
 #clock{
     position: absolute;
-    top: 0px;
-    left: 100%; /*como posicionar na extremidade?*/
-    right: 0px;
-    bottom: 0px;
+    left: 60%; 
 
 }
 
 #three{
     display: inline;
     margin-left: 5px;
-    /* position: absolute;
-    right: 0%;
-    top: -70%; */
+    position: absolute;
+    left: 70%;
+    bottom: 5%;
+    
 }
 
 hr{
