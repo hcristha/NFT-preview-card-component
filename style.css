@@ -85,8 +85,8 @@ p{
 }
 
 #clock{
-    position: absolute;
-    left: 75%; 
+    /* position: absolute; /*entender por que as imagens não desceram?*/
+    left: 75%;  */
 
 }
 
