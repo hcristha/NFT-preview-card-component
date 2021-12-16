@@ -70,9 +70,14 @@ p{
     font-size: 1rem;
 }
 
+#ether{
+    float: left;
+}
+
 #eth{
     color: hsl(178, 100%, 50%);
     display: inline;
+    float: left;
     margin-left: 10px;
     /* position: absolute;
     bottom: 5%; */
@@ -80,18 +85,15 @@ p{
 }
 
 #clock{
-    /* position: absolute;
-    left: 65%;  */
+    position: absolute;
+    left: 75%; 
 
 }
 
 #three{
     display: inline;
     margin-left: 5px;
-    /* position: absolute;
-    left: 70%;
-    bottom: 5%; */
-    text-align: right;
+    float: right;
 }
 
 hr{
