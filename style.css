@@ -74,24 +74,24 @@ p{
     color: hsl(178, 100%, 50%);
     display: inline;
     margin-left: 10px;
-    position: absolute;
-    bottom: 5%;
+    /* position: absolute;
+    bottom: 5%; */
     
 }
 
 #clock{
-    position: absolute;
-    left: 60%; 
+    /* position: absolute;
+    left: 65%;  */
 
 }
 
 #three{
     display: inline;
     margin-left: 5px;
-    position: absolute;
+    /* position: absolute;
     left: 70%;
-    bottom: 5%;
-    
+    bottom: 5%; */
+    text-align: right;
 }
 
 hr{
@@ -134,6 +134,6 @@ hr{
 
 @media screen and (min-width: 420px){ /*desktop*/
     body{
-        width: 30%;
+        width: 80%;
     }
 }
