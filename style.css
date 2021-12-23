@@ -61,9 +61,10 @@ h1:hover{
     color: hsl(178, 100%, 50%);
 }
 
-/* main{
-    background-color: yellow;
-} */
+main{
+    background-color: red;
+    overflow: hidden;
+}
 
 p{
     color: hsl(215, 51%, 70%);
@@ -71,28 +72,23 @@ p{
 }
 
 #ether{
+    display: inline;
     float: left;
+     
+    margin-right: 10px;
 }
 
 #eth{
-    color: hsl(178, 100%, 50%);
-    display: inline;
+    background-color: green;
     float: left;
-    margin-left: 10px;
-    /* position: absolute;
-    bottom: 5%; */
-    
 }
 
 #clock{
-    /* position: absolute; /*entender por que as imagens não desceram?*/
-    left: 75%;
-
+    clear: left;
+    margin-left: 13vw;
 }
 
 #three{
-    display: inline;
-    margin-left: 5px;
     float: right;
 }
 
