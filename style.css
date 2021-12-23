@@ -11,7 +11,7 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 5vw;
-    padding-top: 5vh;
+    padding-top: 10vh;
 }
 
 #container{
@@ -19,8 +19,7 @@ body{
     border-radius: 15px;
     margin: auto;
     overflow: hidden;
-    padding: 25px;
-    height: 0%;
+    padding: 20px;
 }
 
 #cyan{
@@ -62,12 +61,13 @@ h1:hover{
 }
 
 main{
-    overflow: hidden;
+    /* background-color: red;
+    overflow: hidden; */
 }
 
 p{
     color: hsl(215, 51%, 70%);
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 #ether{
@@ -80,7 +80,7 @@ p{
 }
 
 #clock{
-    margin-left: 15vw;
+    margin-left: 22vw;
 }
 
 #three{
