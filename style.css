@@ -89,9 +89,7 @@ p{
 }
 
 hr{
-    border-style: solid;
-    border-color: black;
-    height: 0px;
+    background-color: hsl(215, 32%, 27%);
 }
 
 #avatar{
