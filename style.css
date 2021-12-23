@@ -26,25 +26,25 @@ body{
 #cyan{
     background-color: hsla(178, 100%, 50%, 0.364);
     border-radius: 10px;
-    height: 41vh;
+    height: 42vh;
     width: 100%;
 }
 
 #view{
     position: relative;
-    left: 41%;
+    left: 42%;
     top: 42%;
 }
 
 #equi{
     border-radius: 10px;
-    height: 41vh;
+    height: 42vh;
     width: 100%;
 }
 
 #equi2{
     border-radius: 10px;
-    height: 41vh;
+    height: 42vh;
     width: 100%;
 }
 
