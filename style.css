@@ -20,13 +20,13 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
-    width: 80%;
+    height: 0%;
 }
 
 #cyan{
     background-color: hsla(178, 100%, 50%, 0.364);
     border-radius: 5px;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -38,13 +38,13 @@ body{
 
 #equi{
     border-radius: 5px;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
 }
 
 #equi2{
     border-radius: 5px;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -54,7 +54,7 @@ body{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 h1:hover{
@@ -75,11 +75,12 @@ p{
 }
 
 #eth{
+    color:hsl(178, 100%, 50%);
     display: inline;
 }
 
 #clock{
-    margin-left: 13vw;
+    margin-left: 15vw;
 }
 
 #three{
@@ -123,10 +124,4 @@ hr{
 
 .attribution a {
      color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 420px){ /*desktop*/
-    body{
-        width: 80%;
-    }
 }
