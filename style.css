@@ -11,7 +11,7 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 5vw;
-    padding-top: 8vh;
+    padding-top: 5vh;
 }
 
 #container{
@@ -121,7 +121,8 @@ hr{
 }
 
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 11px;
+    text-align: center; 
     margin: 0;
     padding: 0;
 }
