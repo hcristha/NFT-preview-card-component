@@ -89,8 +89,8 @@ p{
 }
 
 hr{
-    border: 1px solid hsl(215, 32%, 27%);
-    width: 100%;
+    border: solid hsl(215, 32%, 27%);
+    border-width: thin;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -105,7 +105,7 @@ hr{
 }
 
 #creat{
-    padding-top: 15px;
+    float: left;
 }
 
 #jules{
