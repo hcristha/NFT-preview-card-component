@@ -62,7 +62,6 @@ h1:hover{
 }
 
 main{
-    background-color: red;
     overflow: hidden;
 }
 
@@ -72,24 +71,20 @@ p{
 }
 
 #ether{
-    display: inline;
-    float: left;
-     
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #eth{
-    background-color: green;
-    float: left;
+    display: inline;
 }
 
 #clock{
-    clear: left;
     margin-left: 13vw;
 }
 
 #three{
-    float: right;
+    display: inline;
+    margin-left: 5px;
 }
 
 hr{
