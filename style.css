@@ -11,7 +11,7 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 5vw;
-    padding-top: 5vh;
+    padding-top: 7vh;
 }
 
 #container{
@@ -54,7 +54,7 @@ body{
 
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 h1:hover{
