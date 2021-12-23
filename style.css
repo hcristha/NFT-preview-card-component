@@ -90,6 +90,12 @@ p{
 
 hr{
     background-color: hsl(215, 32%, 27%);
+    border-style: solid;
+    border-width: 0;
+    height: 1px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #avatar{
