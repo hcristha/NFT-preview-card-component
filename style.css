@@ -10,7 +10,7 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     margin: 0;
-    padding: 5vw;
+    padding: 3vw;
     padding-top: 10vh;
 }
 
@@ -20,13 +20,14 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 20px;
+    width: 80%;
 }
 
 #cyan{
     background-color: hsla(178, 100%, 50%, 0.364);
-    border-radius: 5px;
+    border-radius: 10px;
     height: 40vh;
-    width: 95%;
+    width: 100%;
 }
 
 #view{
@@ -36,15 +37,15 @@ body{
 }
 
 #equi{
-    border-radius: 5px;
+    border-radius: 10px;
     height: 40vh;
-    width: 95%;
+    width: 100%;
 }
 
 #equi2{
-    border-radius: 5px;
+    border-radius: 10px;
     height: 40vh;
-    width: 95%;
+    width: 100%;
 }
 
 #equi2:hover{
@@ -80,7 +81,7 @@ p{
 }
 
 #clock{
-    margin-left: 22vw;
+    margin-left: 20vw;
 }
 
 #three{
