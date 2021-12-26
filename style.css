@@ -160,3 +160,13 @@ footer{
 .attribution a {
      color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 450px){
+    h1{
+        font-size: 1.8rem;
+    }
+
+    #creat{
+        font-size: 18px;
+    }
+}
