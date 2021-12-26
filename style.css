@@ -125,12 +125,12 @@ hr{
 
 footer{
     overflow: hidden;
-    position: relative;
 }
 
 #avatar{
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
+    float: left;
     height: 10%;
     width: 13%;
 }
@@ -138,11 +138,8 @@ footer{
 #creat{
     font-size: 15px;
 
-    position: absolute;
-    top: 0;
-    left: 50px;
-
-    transform: translateY(-50%);
+    position: relative;
+    left: 5%;
 }
 
 #jules{
