@@ -10,7 +10,8 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     margin: 0;
-    padding: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     padding-top: 7vh;
 }
 
