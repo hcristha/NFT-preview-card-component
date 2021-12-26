@@ -70,6 +70,11 @@ header{
     display: none;
 }
 
+main{
+    background-color: red;
+    position: relative;
+}
+
 h1{
     color: hsl(0, 0%, 100%);
     font-size: 1.5rem;
@@ -90,15 +95,24 @@ p{
 #eth{
     color:hsl(178, 100%, 50%);
     display: inline;
+
+    position: absolute;
+    bottom: 0;
 }
 
 #clock{
-    margin-left: 19vw;
+    position: absolute;
+
+    right: 30%;
 }
 
 #three{
     display: inline;
     margin-left: 5px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 hr{
