@@ -125,14 +125,16 @@ hr{
 
 footer{
     overflow: hidden;
+
+    position: relative;
 }
 
 #avatar{
-    border: 1px solid hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     float: left;
-    height: 10%;
-    width: 13%;
+    height: 13%;
+    width: 10%;
 }
 
 #creat{
@@ -140,6 +142,8 @@ footer{
 
     position: relative;
     left: 5%;
+
+    transform: translateY(-50%);
 }
 
 #jules{
@@ -161,7 +165,11 @@ footer{
      color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 400px){
+    #container{
+        width: 70%;
+    }
+
     h1{
         font-size: 1.8rem;
     }
