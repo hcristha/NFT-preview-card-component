@@ -102,12 +102,11 @@ p{
 #clock{
     position: absolute;
 
-    right: 30%;
+    right: 90px;
 }
 
 #three{
     display: inline;
-    margin-left: 5px;
 
     position: absolute;
     bottom: 0;
@@ -125,21 +124,23 @@ hr{
 }
 
 footer{
-    background-color: red;
+    overflow: hidden;
     position: relative;
 }
 
 #avatar{
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50%;
-    float: left;
     height: 10%;
     width: 13%;
 }
 
 #creat{
+    font-size: 15px;
+
     position: absolute;
-    right: 10%;
+    top: 0;
+    left: 50px;
 
     transform: translateY(-50%);
 }
