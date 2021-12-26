@@ -38,7 +38,7 @@ header{
 }
 
 #cyan{
-    background-color: hsla(178, 100%, 50%, 0.22);
+    background-color: hsla(178, 100%, 50%, 0.357);
     border-radius: 10px;
     width: 100%;
     height: 100%;
@@ -66,7 +66,7 @@ header{
     left: 0px;
 }
 
-#equi2:active{
+#equi2:hover{
     display: none;
 }
 
@@ -75,18 +75,12 @@ h1{
     font-size: 1.5rem;
 }
 
-h1:active{
+h1:hover{
     color: hsl(178, 100%, 50%);
-}
-
-main{
-    /* background-color: red;
-    overflow: hidden; */
 }
 
 p{
     color: hsl(215, 51%, 70%);
-    /* font-size: 0.9rem; */
 }
 
 #ether{
@@ -135,7 +129,7 @@ hr{
     color: hsl(0, 0%, 100%)
 }
 
-#jules:active{
+#jules:hover{
     color: hsl(178, 100%, 50%);
 }
 
