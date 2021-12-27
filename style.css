@@ -14,10 +14,6 @@ body{
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 7vh;
-
-    position: relative;
-    top: 0px;
-    left: 0px;
 }
 
 #container{
@@ -129,7 +125,6 @@ hr{
 }
 
 footer{
-    /* background-color: blue; */
     overflow: hidden;
 
     position: relative;
@@ -160,7 +155,7 @@ footer{
     color: hsl(178, 100%, 50%);
 }
 
-.attribution {
+.attribution{
     font-size: 11px;
     text-align: center; 
     margin: 0;
@@ -168,11 +163,11 @@ footer{
     padding: 0;
 }
 
-.attribution a {
+.attribution a{
      color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-height: 900px){
+@media screen and (min-height: 900px){ /*altura maior que 900px e menor que 1440px*/
     header{
         height: 30vh;
     }
@@ -194,7 +189,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 625px){
+@media screen and (min-width: 625px){ /*mobile*/
     #container{
         width: 40vw;
     }
