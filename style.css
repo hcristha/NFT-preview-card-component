@@ -163,11 +163,26 @@ footer{
     font-size: 11px;
     text-align: center; 
     margin: 0;
+    margin-top: 15px;
     padding: 0;
 }
 
 .attribution a {
      color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-height: 900px){
+    header{
+        height: 30vh;
+    }
+
+    .attribution{
+        margin-top: 15px;
+        position: absolute;
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
 }
 
 @media screen and (min-width: 425px){ /*mobile*/
@@ -204,25 +219,7 @@ footer{
     }
 }
 
-@media screen and (min-height: 900px){
-    header{
-        height: 30vh;
-    }
-
-    .attribution{
-        margin-top: 15px;
-        position: absolute;
-        left: 50%;
-
-        transform: translateX(-50%);
-    }
-}
-
 @media screen and (min-width: 1440px){ /*desktop*/
-    /* body{
-        padding: 0;
-    } */
-
     #container{
         width: 20vw;
     }
@@ -232,7 +229,6 @@ footer{
     }
 
     .attribution{
-        margin-top: 15px;
         position: absolute;
         left: 50%;
 
