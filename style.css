@@ -128,6 +128,7 @@ hr{
 }
 
 footer{
+    /* background-color: blue; */
     overflow: hidden;
 
     position: relative;
@@ -144,8 +145,8 @@ footer{
 #creat{
     font-size: 15px;
 
-    position: relative;
-    left: 5%;
+    position: absolute;
+    left: 15%;
 
     transform: translateY(-50%);
 }
@@ -172,9 +173,7 @@ footer{
 @media screen and (min-width: 425px){ /*mobile*/
     #container{
         width: 60vw;
-    }
-
-    
+    } 
 
     #creat{
         font-size: 18px;
@@ -219,7 +218,6 @@ footer{
     }
 
     .attribution{
-
         position: absolute;
         left: 50%;
         bottom: -40%;
