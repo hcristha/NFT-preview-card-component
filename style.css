@@ -70,7 +70,7 @@ header{
     left: 0px;
 }
 
-#equi2:hover{
+#equi2:active{
     display: none;
 }
 
@@ -207,6 +207,14 @@ footer{
 @media screen and (min-height: 900px){
     header{
         height: 30vh;
+    }
+
+    .attribution{
+        margin-top: 15px;
+        position: absolute;
+        left: 50%;
+
+        transform: translateX(-50%);
     }
 }
 
