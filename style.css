@@ -13,6 +13,8 @@ body{
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 7vh;
+
+    position: relative;
 }
 
 #container{
@@ -189,13 +191,32 @@ footer{
     }
 }
 
+@media screen and (min-width: 825px){
+    #container{
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #container{
+        width: 25vw;
+    }
+}
+
 @media screen and (min-width: 1440px){ /*desktop*/
     #container{
         width: 20vw;
     }
 
     header{
-        height: 30vh;
+        height: 35vh;
+    }
+
+    .attribution{
+        background-color: red;
+
+        position: absolute;
+        bottom: 0;
     }
     
 }
