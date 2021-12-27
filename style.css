@@ -167,66 +167,35 @@ footer{
 
 @media screen and (min-width: 425px){ /*mobile*/
     #container{
-        width: 70%;
+        width: 60vw;
     }
 
-    h1{
-        font-size: 1.8rem;
-    }
+    
 
     #creat{
         font-size: 18px;
     }
 }
 
-@media screen and (min-width: 700px){ /*desktop*/
+@media screen and (min-width: 525px){ /*mobile*/
     #container{
-        width: 30%;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 625px){
+    #container{
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1440px){ /*desktop*/
+    #container{
+        width: 20vw;
     }
 
-    h1{
-        font-size: 2rem;
-    }
-
-    footer{
-        overflow: hidden;
-    
-        position: relative;
+    header{
+        height: 30vh;
     }
     
-    #avatar{
-        border: 2px solid hsl(0, 0%, 100%);
-        border-radius: 50%;
-        float: left;
-        height: 13%;
-        width: 10%;
-    }
-    
-    #creat{
-        font-size: 15px;
-    
-        position: relative;
-        left: 5%;
-    
-        transform: translateY(-50%);
-    }
-    
-    #jules{
-        color: hsl(0, 0%, 100%)
-    }
-    
-    #jules:hover{
-        color: hsl(178, 100%, 50%);
-    }
-    
-    .attribution {
-        font-size: 11px;
-        text-align: center; 
-        margin: 0;
-        padding: 0;
-    }
-    
-    .attribution a {
-         color: hsl(228, 45%, 44%);
-    }
 }
