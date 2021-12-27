@@ -204,6 +204,12 @@ footer{
     }
 }
 
+@media screen and (min-height: 900px){
+    header{
+        height: 30vh;
+    }
+}
+
 @media screen and (min-width: 1440px){ /*desktop*/
     /* body{
         padding: 0;
@@ -218,9 +224,9 @@ footer{
     }
 
     .attribution{
+        margin-top: 15px;
         position: absolute;
         left: 50%;
-        bottom: -40%;
 
         transform: translateX(-50%);
     }
