@@ -10,6 +10,7 @@ body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     margin: 0;
+    padding: 0;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 7vh;
@@ -175,14 +176,6 @@ footer{
     header{
         height: 30vh;
     }
-
-    .attribution{
-        margin-top: 15px;
-        position: absolute;
-        left: 50%;
-
-        transform: translateX(-50%);
-    }
 }
 
 @media screen and (min-width: 425px){ /*mobile*/
@@ -226,13 +219,5 @@ footer{
 
     header{
         height: 30vh;
-    }
-
-    .attribution{
-        position: absolute;
-        left: 50%;
-
-        transform: translateX(-50%);
-    }
-    
+    }    
 }
