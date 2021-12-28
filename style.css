@@ -199,7 +199,7 @@ hr{
     }
 }
 
-@media screen and (min-width: 625px){ /*mobile*/
+@media screen and (min-width: 625px){ /*mobile! AQUI COMO FICAR AFASTADO SEMPRE DO BODY*/
     body{
         padding-top: 1vw;
     }
