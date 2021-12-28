@@ -50,4 +50,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Made with ❤ by Helen Cristhina A. 👋 [See my linkedin](https://www.linkedin.com/in/hcristha/)
 - Frontend Mentor - [@hcristha](https://www.frontendmentor.io/profile/hcristha)
+<div align="center">
+  <img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="askMe">
+</div>
 
