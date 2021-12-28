@@ -16,24 +16,27 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## <!-- linha -->
 
-<p id="the-challenge"><strong>The challenge</strong></p>
-
+<h3 id="the-challenge">The challenge</h3>
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-[Built with](#built-with)
+## <!-- linha -->
+
+<h3 id="built-with">Built with</h3>
 
 - Semantic HTML5 markup
 - CSS
 - Mobile-first workflow
 
-<h1 id="author">Author</h1>
+## <!-- linha -->
+
+<h3 id="author">Author</h3>
 
 - Made with ❤ by Helen Cristhina A. 👋 [See my linkedin](https://www.linkedin.com/in/hcristha/)
 - Frontend Mentor - [@hcristha](https://www.frontendmentor.io/profile/hcristha)
 <div align="center">
-  <img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="askMe">
+  <a href="https://github.com/hcristha"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="askMe"></a>
 </div>
 
