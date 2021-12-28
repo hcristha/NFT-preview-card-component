@@ -3,12 +3,12 @@
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 <ul>
-  <li><a href="#overview"></a></li>
-  <li>#the-challenge</li>
-  <li>#screenshot</li>
-  <li>#my-process</li>
-  <li>#built-with)</li>
-  <li>#author</li>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#the-challenge">The challenge</a></li>
+  <li><a href="#screenshot">Screenshot</a></li>
+  <li><a href="#my-process">My process</a></li>
+  <li><a href="#built-with">Built with</a></li>
+  <li><a href="#author">Author</a></li>
 </ul>
 
 ## Overview
