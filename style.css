@@ -22,7 +22,7 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
-    width: 85%
+    width: 85%;
 }
 
 header{
@@ -67,7 +67,7 @@ header{
     left: 0px;
 }
 
-#equi2:active{
+#equi2:hover{
     display: none;
 }
 
@@ -175,7 +175,7 @@ hr{
 
 @media screen and (min-width: 425px){ /*mobile*/
     #container{
-        width: 60vw;
+        width: 70%;
     } 
 
     #creat{
@@ -185,26 +185,40 @@ hr{
 
 @media screen and (min-width: 525px){ /*mobile*/
     #container{
-        width: 50vw;
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 625px){ /*mobile*/
     #container{
-        width: 40vw;
+        width: 50%;
     }
 }
 
 @media screen and (min-width: 825px){
     #container{
-        width: 30vw;
+        width: 40%;
     }
 }
 
 @media screen and (min-width: 1025px){
     #container{
-        width: 25vw;
+        width: 30%;
     }
+
+    header{
+        height: 30%;
+    }  
+}
+
+@media screen and (min-width: 1200px){ /*desktop*/
+    #container{
+        width: 25%;
+    }
+
+    /* header{
+        height: 25%;
+    }     */
 }
 
 @media screen and (min-width: 1440px){ /*desktop*/
