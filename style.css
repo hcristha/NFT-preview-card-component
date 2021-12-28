@@ -13,7 +13,7 @@ body{
     padding: 0;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 3vh;
+    padding-top: 7vw;
 }
 
 #container{
@@ -200,12 +200,20 @@ hr{
 }
 
 @media screen and (min-width: 625px){ /*mobile*/
+    body{
+        padding-top: 1vw;
+    }
+
     #container{
         width: 50%;
     }
 
     header{
         height: 50%;
+    }
+
+    .attribution{
+        margin-top: 10px;
     }
 }
 
