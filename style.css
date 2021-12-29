@@ -19,7 +19,6 @@ body{
 #container{
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    box-sizing: border-box;
     margin: auto;
     overflow: hidden;
     padding: 25px;
@@ -30,6 +29,7 @@ header{
     color: yellow;
 
     width: 100%;
+    height: 85%;
 
     position: relative;
 }
@@ -175,11 +175,11 @@ hr{
     }
 }
 
-@media screen and (min-width: 405px){ /*mobile*/
+@media screen and (min-width: 425px){ /*mobile*/
     body{
         padding-top: 1vw;
     }
-
+    
     #container{
         width: 70%;
     } 
@@ -217,7 +217,7 @@ hr{
     }
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 825px){
     #container{
         width: 40%;
     }
@@ -237,28 +237,13 @@ hr{
     }  
 }
 
-@media screen and (min-width: 925px){ /*desktop*/
-    #container{
-        width: 30%;
-    }
-
-    header{
-        height: 30%;
-    }    
-}
-
 @media screen and (min-width: 1200px){ /*desktop*/
-    body{
-        padding-top: 1%;
-        padding-bottom: 1%;
-    }
-
     #container{
-        width: 30%;
+        width: 25%;
     }
 
     header{
-        height: 30%;
+        height: 25%;
     }    
 }
 
