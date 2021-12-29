@@ -25,12 +25,12 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
-    width: 90%;
+    width: 85%;
 }
 
 header{
+    box-sizing: border-box;
     color: yellow;
-    /* height: 45vh; */
     width: 100%;
 
     position: relative;
