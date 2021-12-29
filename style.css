@@ -50,7 +50,7 @@ header{
     position: absolute;
     top: 0;
 
-    opacity: 1;
+    opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -162,6 +162,12 @@ hr{
 
 .attribution a{
      color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-height:900px){
+    header{
+        height: 30vh;
+    }
 }
 
 @media screen and (min-width: 410px){
