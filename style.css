@@ -197,7 +197,7 @@ hr{
 
 @media screen and (min-width: 540px){ /*mobile*/
     #container{
-        width: 75%;
+        width: 70%;
     }
 
     header{
@@ -211,32 +211,52 @@ hr{
     }
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 725px){
+    #container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 825px){
+    #container{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 925px){
+    #container{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1025px){ /*desktop*/
+    #container{
+        width: 35%;
+    }
+    
+    header{
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width: 1125px){ /*desktop*/
     #container{
         width: 30%;
     }
-
-    header{
-        height: 30%;
-    }  
 }
 
-@media screen and (min-width: 1200px){ /*desktop*/
+@media screen and (min-width: 1225px){ /*desktop*/
     #container{
-        width: 25%;
+        width: 27%;
     }
-
-    header{
-        height: 25%;
-    }    
 }
 
 @media screen and (min-width: 1440px){ /*desktop*/
     #container{
-        width: 20%;
+        width: 25%;
     }
-
+    
     header{
-        height: 20%;
-    }    
+        height: 30vh;
+    }
 }
