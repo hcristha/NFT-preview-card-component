@@ -28,7 +28,7 @@ body{
 
 header{
     color: yellow;
-    header: 45vh;
+    height: 45vh;
     width: 100%;
 
     position: relative;
@@ -49,6 +49,9 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
 }
 
 #view{
@@ -60,18 +63,18 @@ header{
 
 }
 
-#equi2{
+#cyan:hover{
+    opacity: 1;
+}
+
+/* #equi2{
     border-radius: 10px;
     width: 100%;
     height: 100%;
 
     position: absolute;
     left: 0px;
-}
-
-#equi2:hover{
-    display: none;
-}
+} */
 
 main{
     position: relative;
