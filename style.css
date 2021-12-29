@@ -25,13 +25,13 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
-    width: 85%;
+    width: 85vw;
 }
 
 header{
     border-radius: 10px;
     width: 100%;
-    height: 100%;
+    height: 40vh;
     position: relative;
 }
 
@@ -45,12 +45,12 @@ header{
     background-color: hsla(178, 100%, 50%, 0.357);
     border-radius: 10px;
     width: 100%;
-    height: calc(100% - 5px);
+    height: 100%;
 
     position: absolute;
     top: 0;
 
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -163,3 +163,62 @@ hr{
 .attribution a{
      color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 410px){
+    body{
+        padding-top: 5%;
+    }
+
+    .card{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 475px){
+    .card{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 520px){
+    .card{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 595px){
+    .card{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 730px){
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 880px){
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 940px){
+    .card{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1115px){
+    .card{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .card{
+        width: 25%;
+    }
+}
+
