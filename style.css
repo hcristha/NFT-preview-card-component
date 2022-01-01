@@ -36,13 +36,13 @@ header{
     position: relative;
 }
 
-#equi{
+.equi{
     border-radius: 10px;
     width: 100%;
     height: 100%;
 }
 
-#cyan{
+.cyan{
     background-color: hsla(178, 100%, 50%, 0.357);
     border-radius: 10px;
     width: 100%;
@@ -55,7 +55,7 @@ header{
     transition: opacity 0.3s ease-in-out;
 }
 
-#view{
+.view{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,11 +64,11 @@ header{
 
 }
 
-#cyan:hover{
+.cyan:hover{
     opacity: 1;
 }
 
-main{
+.main{
     position: relative;
 }
 
@@ -85,11 +85,11 @@ p{
     color: hsl(215, 51%, 70%);
 }
 
-#ether{
+.ether{
     margin-right: 5px;
 }
 
-#eth{
+.eth{
     color:hsl(178, 100%, 50%);
     display: inline;
 
@@ -97,13 +97,13 @@ p{
     bottom: 0;
 }
 
-#clock{
+.clock{
     position: absolute;
 
     right: 90px;
 }
 
-#three{
+.three{
     display: inline;
 
     position: absolute;
@@ -127,7 +127,7 @@ hr{
     position: relative;
 }
 
-#avatar{
+.avatar{
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     float: left;
@@ -135,7 +135,7 @@ hr{
     width: 10%;
 }
 
-#creat{
+.creat{
     font-size: 15px;
 
     position: absolute;
@@ -144,12 +144,12 @@ hr{
     transform: translateY(-50%);
 }
 
-#jules{
+.jules{
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
-#jules:hover{
+.jules:hover{
     color: hsl(178, 100%, 50%);
 }
 
