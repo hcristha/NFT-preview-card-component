@@ -16,6 +16,8 @@ body{
     padding: 0;
     margin: auto;
     padding-top: 15%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .card{
@@ -26,23 +28,16 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 25px;
-    width: 85vw;
+    width: 100%;
 }
 
-header{
+.card__img{
     border-radius: 10px;
     width: 100%;
-    height: 40vh;
     position: relative;
 }
 
-.equi{
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-.cyan{
+.card__blue-box{
     background-color: hsla(178, 100%, 50%, 0.357);
     border-radius: 10px;
     width: 100%;
@@ -55,7 +50,7 @@ header{
     transition: opacity 0.3s ease-in-out;
 }
 
-.view{
+.card__blue-box img{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,12 +59,14 @@ header{
 
 }
 
-.cyan:hover{
+.card__blue-box:hover{
     opacity: 1;
 }
 
-.main{
-    position: relative;
+.card__img--equi{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 h1{
@@ -81,15 +78,15 @@ h1:hover{
     color: hsl(178, 100%, 50%);
 }
 
-p{
+.card__desc--text{
     color: hsl(215, 51%, 70%);
 }
 
-.ether{
+.card__desc--ether{
     margin-right: 5px;
 }
 
-.eth{
+.card__desc--eth{
     color:hsl(178, 100%, 50%);
     display: inline;
 
@@ -97,13 +94,13 @@ p{
     bottom: 0;
 }
 
-.clock{
+.card__desc--clock{
     position: absolute;
 
     right: 90px;
 }
 
-.three{
+.card__desc--three{
     display: inline;
 
     position: absolute;
@@ -121,13 +118,13 @@ hr{
     margin-bottom: 15px;
 }
 
-.author{
+.card__author{
     overflow: hidden;
 
     position: relative;
 }
 
-.avatar{
+.card__author--avatar{
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     float: left;
@@ -135,7 +132,7 @@ hr{
     width: 10%;
 }
 
-.creat{
+.card__author--text{
     font-size: 15px;
 
     position: absolute;
@@ -144,12 +141,12 @@ hr{
     transform: translateY(-50%);
 }
 
-.jules{
+.card__author--name{
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
-.jules:hover{
+.card__author--name:hover{
     color: hsl(178, 100%, 50%);
 }
 
@@ -164,68 +161,3 @@ hr{
 .attribution a{
      color: hsl(228, 45%, 44%);
 }
-
-@media screen and (min-height:900px){
-    header{
-        height: 30vh;
-    }
-}
-
-@media screen and (min-width: 410px){
-    body{
-        padding-top: 5%;
-    }
-
-    .card{
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 475px){
-    .card{
-        width: 75%;
-    }
-}
-
-@media screen and (min-width: 520px){
-    .card{
-        width: 65%;
-    }
-}
-
-@media screen and (min-width: 595px){
-    .card{
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 730px){
-    .card{
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 880px){
-    .card{
-        width: 40%;
-    }
-}
-
-@media screen and (min-width: 940px){
-    .card{
-        width: 35%;
-    }
-}
-
-@media screen and (min-width: 1115px){
-    .card{
-        width: 30%;
-    }
-}
-
-@media screen and (min-width: 1300px){
-    .card{
-        width: 25%;
-    }
-}
-
