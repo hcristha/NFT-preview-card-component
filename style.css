@@ -159,6 +159,7 @@ hr{
     margin: 0;
     margin-top: 15px;
     padding: 0;
+    text-shadow: 1px 1px 10px hsl(216, 50%, 50%);
 }
 
 .attribution a{
