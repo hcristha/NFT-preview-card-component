@@ -66,6 +66,10 @@ body{
     height: 100%;
 }
 
+.card__desc{
+    position: relative;
+}
+
 h1{
     color: hsl(0, 0%, 100%);
     font-size: 1.5rem;
@@ -98,6 +102,7 @@ h1:hover{
 }
 
 .card__desc--three{
+    color: hsl(215, 51%, 70%);
     display: inline;
 
     position: absolute;
@@ -121,7 +126,7 @@ hr{
     position: relative;
 }
 
-.card__author--avatar{
+.card__autor--avatar{
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     float: left;
@@ -130,6 +135,7 @@ hr{
 }
 
 .card__author--text{
+    color: hsl(215, 51%, 70%);
     font-size: 15px;
 
     position: absolute;
