@@ -28,6 +28,7 @@ body{
     padding: 25px;
     width: 100%;
     max-height: 7rem;
+}
 
 .card__img{
     background-color: red;
