@@ -16,7 +16,7 @@ body{
     padding: 0;
     padding-top: 10%;
     padding-right: 5%;
-    padding-left: 5%
+    padding-left: 5%;
 }
 
 .card{
@@ -31,6 +31,7 @@ body{
 
 .card__img{
     border-radius: 10px;
+    max-height: 1rem;
     position: relative;
 }
 
@@ -165,3 +166,13 @@ hr{
 .attribution a{
      color: hsl(228, 45%, 44%);
 }
+
+/* @media screen and (min-width: 1440px){
+    body{
+        padding-top: 5%;
+    }
+
+    .card{
+        width: 80%;
+    }
+} */
