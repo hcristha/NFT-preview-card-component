@@ -14,7 +14,7 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 0;
-    padding-top: 10%;
+    padding-top: 40px;
     padding-right: 5%;
     padding-left: 5%;
 }
@@ -22,16 +22,16 @@ body{
 .card{
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
-    box-shadow: -2px 10px 15px -1px hsl(217, 54%, 5%);
+    box-shadow: 2px 10px 15px -1px hsl(217, 54%, 5%);
     box-sizing: border-box;
     overflow: hidden;
+    margin: auto;
     padding: 25px;
     width: 100%;
     max-width: 350px;
 }
 
 .card__img{
-    /* background-color: red; */
     border-radius: 10px;
     position: relative;
 }
@@ -128,7 +128,7 @@ hr{
     position: relative;
 }
 
-.card__autor--avatar{
+.card__author--avatar{
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     float: left;
@@ -167,12 +167,8 @@ hr{
      color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 1440px){
     body{
-    
-    }
-
-    .card{
-        margin: auto;
+        padding-top: 10%;
     }
 }
