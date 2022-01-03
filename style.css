@@ -167,7 +167,7 @@ hr{
      color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px){ /* desktop */
     body{
         padding-top: 10%;
     }
