@@ -33,7 +33,6 @@ body{
 
 .card__img{
     border-radius: 10px;
-    position: relative;
 }
 
 /* .card__img--blue-box{
@@ -68,19 +67,18 @@ body{
     max-height: 300px;
 }
 
-.card__img--equi::before{
+.card__img--equi::after:hover{
     content: "";
     display: inline-block;
     width: 100%;
-    height: 100%;
-    background-image: url("./images/icon-view.svg");
+    background-image: url("images/icon-view.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .card__desc{
-    position: relative;
+    
 }
 
 h1{
@@ -104,23 +102,18 @@ h1:hover{
     color:hsl(178, 100%, 50%);
     display: inline;
 
-    position: absolute;
-    bottom: 0;
+    
 }
 
 .card__desc--clock{
-    position: absolute;
-
-    right: 90px;
+    
 }
 
 .card__desc--three{
     color: hsl(215, 51%, 70%);
     display: inline;
 
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    
 }
 
 hr{
@@ -135,14 +128,11 @@ hr{
 
 .card__author{
     overflow: hidden;
-
-    position: relative;
 }
 
 .card__author--avatar{
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50%;
-    float: left;
     height: 13%;
     width: 10%;
 }
@@ -150,11 +140,6 @@ hr{
 .card__author--text{
     color: hsl(215, 51%, 70%);
     font-size: 1rem;
-
-    position: absolute;
-    left: 15%;
-
-    transform: translateY(-50%);
 }
 
 .card__author--name{
