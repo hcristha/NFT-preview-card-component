@@ -83,8 +83,14 @@ h1:hover{
     color: hsl(215, 51%, 70%);
 }
 
+.card__desc--about{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .card__desc--ether{
-    margin-right: 10px;
+    
 }
 
 .card__desc--eth{
@@ -110,9 +116,6 @@ hr{
     border-style: solid;
     border-width: 0;
     height: 1px;
-
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .card__author{
