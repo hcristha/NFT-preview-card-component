@@ -85,8 +85,10 @@ h1:hover{
 
 .card__desc--about{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
 .card__desc--ether{
@@ -95,8 +97,6 @@ h1:hover{
 
 .card__desc--eth{
     color:hsl(178, 100%, 50%);
-    display: inline;
-
     
 }
 
@@ -106,9 +106,6 @@ h1:hover{
 
 .card__desc--three{
     color: hsl(215, 51%, 70%);
-    display: inline;
-
-    
 }
 
 hr{
