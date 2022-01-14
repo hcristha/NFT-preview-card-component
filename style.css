@@ -49,6 +49,7 @@ body{
 
     display: flex;
     display: -webkit-flex;
+    display: -ms-flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
