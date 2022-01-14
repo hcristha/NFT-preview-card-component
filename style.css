@@ -67,11 +67,23 @@ body{
     max-height: 300px;
 }
 
-.card__img--equi::after:hover{
+/* .card__img--equi::before{
     content: "";
     display: inline-block;
-    width: 100%;
+    width: 100px;
     background-image: url("images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.card__img--test::before{
+    content: "b";
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-image: url('images/icon-view.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
