@@ -48,8 +48,6 @@ body{
     height: 100%;
 
     display: flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
@@ -97,7 +95,6 @@ h1:hover{
 }
 
 .card__desc--clock{
-    
     transform: translateX(25px);
 }
 
