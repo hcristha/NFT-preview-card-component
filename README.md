@@ -29,8 +29,9 @@ Users should be able to:
 <h3 id="built-with">Built with</h3>
 
 - Semantic HTML5 markup
-- CSS
+- BEM methodology
 - Mobile-first workflow
+- Flexbox
 
 ## <!-- linha -->
 
