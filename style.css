@@ -131,7 +131,7 @@ hr{
     color: hsl(215, 51%, 70%);
     font-size: 1.1rem;
     margin: 0;
-    transform: translateX(-25%);
+    /* transform: translateX(-25%); */
 }
 
 .card__author--name{
